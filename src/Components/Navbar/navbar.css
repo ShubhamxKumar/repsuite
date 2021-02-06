@@ -1,0 +1,28 @@
+#header_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 90vw;
+  align-items: center;
+}
+
+#header_nav > div {
+  display: flex;
+  flex-direction: row;
+}
+
+#header_nav > div > h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+#logout_btn {
+  background-color: #fe005a;
+  font-family: "Montserrat";
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 1px 1px 5px 1px grey;
+}
